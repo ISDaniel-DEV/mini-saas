@@ -1,6 +1,6 @@
 **Descripcion:** 
 
-Un sistema donde los usuarios crean automatizaciones que se ejecutan solas, integrando servicios externos, usando backend + colas + workers + despliegue real.
+Un sistema donde los usuarios crean automatizaciones que se ejecutan solas, integrando servicios externos, usando backend + colas + workers + despliegue.
 
 # 📊 Cómo funciona todo junto (flujo real)
 
@@ -11,3 +11,9 @@ Un sistema donde los usuarios crean automatizaciones que se ejecutan solas, inte
 5. El worker ejecuta el job
 6. Se llama a Telegram / Notion
 7. Se guarda resultado
+
+Tecnologias usadas en este proyecto:
+- NestJS + Prisma
+- PostgreSQL
+- Docker
+- Kubernetes
